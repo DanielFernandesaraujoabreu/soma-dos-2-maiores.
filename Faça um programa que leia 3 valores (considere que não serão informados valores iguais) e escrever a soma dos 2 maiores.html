@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Faça um programa que leia 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores</title>
+        <script>
+            let a = Number(prompt("Digite o primeiro número"));
+            let b = Number(prompt("Digite o segundo número"));
+            let c = Number(prompt("Digite o terceiro número"));
+
+if(a != b && b != c && c!= a){
+    if(a>b && b>c){
+        document.write("Soma dos maiores:" + (a+b));
+    }else if(a>b && c>b){
+        document.write("Soma dos maiores:" + (a+c));
+    }else{
+        document.write("Soma dos maiores:" + (b+c));
+    }
+}
+      else{
+    document.write("Não pode números iguais");
+}
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
